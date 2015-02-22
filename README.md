@@ -1,4 +1,4 @@
-React Media Query
+React Media Query  [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 =================
 
 Media Query Component for React.
@@ -118,3 +118,41 @@ var App = React.createClass({
   }
 });
 ```
+
+## Browser Support
+
+### Out of the box
+
+<table>
+<tr>
+<td>Chrome</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Firefox (Gecko)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Internet Explorer</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>5.1</td>
+</tr>
+</table>
+
+### With Polyfills
+
+Check out these polyfills for not support browser:
+
+- [matchMedia.js by Paul Irish](https://github.com/paulirish/matchMedia.js/)
+- [media-match (faster, but larger and lacking some features)](https://github.com/weblinc/media-match)
+
+[downloads-image]: http://img.shields.io/npm/dm/react-mq.svg
+[npm-url]: https://npmjs.org/package/react-mq
+[npm-image]: http://img.shields.io/npm/v/react-mq.svg
